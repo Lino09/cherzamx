@@ -283,6 +283,8 @@ main div p{
 }
   #bar{
     justify-content: center;
+    position: absolute;
+    top: 0;
   }
 #bar nav{
   display: none;
