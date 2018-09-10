@@ -159,6 +159,10 @@ section div:first-child {
 
 .selector i {
   font-size: 2rem;
+  /* color:hsl(120, 98%, 20%); */
+    /* color: hsl(10, 80%, 35%); */
+      /* color: hsl(225, 100%,65%); */
+        /* text-shadow: 1px 1px 1px hsl(120, 98%, 20%); */
 }
 
 #holydays {
@@ -225,6 +229,7 @@ footer h1 {
 #footah i {
   font-size: 4rem;
   margin: 2rem 0;
+
 }
 
 #last-part {
