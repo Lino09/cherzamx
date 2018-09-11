@@ -149,6 +149,7 @@ section div:first-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 2rem 0;
 }
 
 .infobox {
@@ -185,7 +186,7 @@ section div:first-child {
 }
 
 .fila {
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .infobox:hover {
@@ -293,6 +294,15 @@ main div p{
 
 }
 @media only screen and (max-width:850px){
+  #multilingual {
+    top: 4.5rem;
+    background-color: transparent;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+  #multilingual a img{
+    width: 3rem;
+  }
 .centrado{
   width: 100%;
 }
