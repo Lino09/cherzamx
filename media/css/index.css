@@ -33,14 +33,25 @@ h2 {
 i {
   margin: 1rem;
 }
+
 /* Multilingual BOx */
-#multilingual{
-  background-color: hsla(360, 100%, 80%,0);
+
+#multilingual {
+  margin: 0;
+  padding: .1rem;
+  background-color: hsla(360, 100%, 50%, 1);
   position: absolute;
-  top: 4.2rem;
-  right: 10%;
-  z-index: 20
+  top: 1.2rem;
+  right: 1rem;
+  z-index: 20;
 }
+
+#multilingual a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* FIXED TOP BAR STYLES */
 
 #bar {
@@ -141,6 +152,8 @@ section div:first-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5rem;
+  border: 1px solid pink;
 }
 
 .infobox {
@@ -149,6 +162,8 @@ section div:first-child {
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
+
+  border: 1px solid pink;
 }
 
 .infobox p {
@@ -167,9 +182,9 @@ section div:first-child {
 .selector i {
   font-size: 2rem;
   /* color:hsl(120, 98%, 20%); */
-    /* color: hsl(10, 80%, 35%); */
-      /* color: hsl(225, 100%,65%); */
-        /* text-shadow: 1px 1px 1px hsl(120, 98%, 20%); */
+  /* color: hsl(10, 80%, 35%); */
+  /* color: hsl(225, 100%,65%); */
+  /* text-shadow: 1px 1px 1px hsl(120, 98%, 20%); */
 }
 
 #holydays {
@@ -177,7 +192,7 @@ section div:first-child {
 }
 
 .fila {
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .infobox:hover {
@@ -236,7 +251,6 @@ footer h1 {
 #footah i {
   font-size: 4rem;
   margin: 2rem 0;
-
 }
 
 #last-part {
@@ -258,85 +272,88 @@ footer h1 {
 }
 
 /* MEDIA QUERIES FROM HERE */
+
 /* MEDIA QUERIES FROM HERE */
+
 /* MEDIA QUERIES FROM HERE */
+
 /* MEDIA QUERIES FROM HERE */
-@media only screen and (max-width:1024px){
-main{
-  height: 30rem;
-}
-main div p{
-  margin: 1rem;
+
+@media only screen and (max-width:1024px) {
+  main {
+    height: 30rem;
+  }
+  main div p {
+    margin: 1rem;
     font-size: 1.2rem;
-  width: 70%;
-}
-#footah div {
-  font-size: 1.3rem;
-  height: 10rem;
-  width: 16rem;
-}
-#footah .segundo{
-  display: none;
-}
-#footah i {
-  font-size: 2rem;
-  margin: 0.5rem;
+    width: 70%;
+  }
+  #footah div {
+    font-size: 1.3rem;
+    height: 10rem;
+    width: 16rem;
+  }
+  #footah .segundo {
+    display: none;
+  }
+  #footah i {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
 }
 
-}
-@media only screen and (max-width:850px){
-.centrado{
-  width: 100%;
-}
-  #bar{
+@media only screen and (max-width:850px) {
+  .centrado {
+    width: 100%;
+  }
+  #bar {
     justify-content: center;
     position: absolute;
     top: 0;
   }
-#bar nav{
-  display: none;
-}
-#bar h2 {
-  font-size: 2rem;
-  margin: 0;
-}
-#footah{
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: stretch;
-}
-#footah div{
-  width: 100%;
-  height: 7rem;
-}
-#last-part div {
-    font-size: 1.5rem;
-}
-#last-part{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#last-part div img {
-  height: 2rem;
-}
-#last-part nav i{
-
+  #bar nav {
+    display: none;
+  }
+  #bar h2 {
     font-size: 2rem;
-}
-.infobox p{
-  font-size: 1rem;
-}
-h2{
-  font-size: 1.2rem;
-}
-main div p{
-  width: 90%;
-}
-.infopack{
-  flex-direction: column;
-}
-.infobox{
-  margin: 1rem auto;
-}
+    margin: 0;
+  }
+  #footah {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  #footah div {
+    width: 100%;
+    height: 7rem;
+  }
+  #last-part div {
+    font-size: 1.5rem;
+  }
+  #last-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #last-part div img {
+    height: 2rem;
+  }
+  #last-part nav i {
+    font-size: 2rem;
+  }
+  .infobox p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  main div p {
+    width: 90%;
+  }
+  .infopack {
+    flex-direction: column;
+  }
+  .infobox {
+    margin: 1rem auto;
+  }
 }
